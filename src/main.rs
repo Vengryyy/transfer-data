@@ -1,6 +1,10 @@
 use std::fs::{OpenOptions, File};
 use std::io::{Write, Error, BufReader, BufRead};
 
+fn main() {
+    
+}
+
 async fn send_data(path: &str, data: &str) -> bool {
     let mut file: File = match OpenOptions::new().write(true).create(true).append(true).open(path) {
         Ok(file) => file,
