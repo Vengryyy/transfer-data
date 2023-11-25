@@ -1,0 +1,13 @@
+[package]
+name = "transfer-data"
+version = "0.1.0"
+authors = ["VengDevs <fayngame@gmail.com>"]
+edition = "2021"
+description = "Transfer data between Rust applications using files."
+license = "MIT"
+homepage = "https://github.com/Vengryyy/transfer-data"
+documentation = "https://github.com/Vengryyy/transfer-data"
+repository = "https://github.com/Vengryyy/transfer-data"
+readme = "README.md"
+
+[dependencies]
